@@ -1,0 +1,13 @@
+body {
+    height: 100%;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+}
+.linha {
+    width: 40%;
+    height: 6px;
+    background-color: blue;
+}
