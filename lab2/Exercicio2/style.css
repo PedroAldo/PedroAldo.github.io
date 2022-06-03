@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.main {
+    display: grid;
+    justify-content: center;
+}
+.titulo {
+    font-family: 'Roboto';
+    color: #ee7300;
+    margin: 0;
+}
+.autor {
+    font-family: 'Roboto';
+    color: #84a101;
+    margin: 0;
+}
+p {
+    font-family: 'roboto';
+    font-weight: 400;
+}
