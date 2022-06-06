@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.form {
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #242020;
+    width: 20%;
+    position: relative;
+    margin: 40px auto;
+    min-width: 450px;
+}
+.form-titulo {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background-color: #FFFFFF;
+    
+}
+.form-labels {
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.form-input {
+    margin-left: 20px;
+    width: 220px;
+}
+.form-input-endereco {
+    margin-left: 20px;
+    width: 400px;
+}
+.form-input-email {
+    margin-left: 20px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+.form-checkbox,
+.form-submit {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

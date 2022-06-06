@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 6</title>
+</head>
+<body>
+        <form class="form" action="/clientes" method="post">
+            <h4 class="form-titulo">Cadastro de Clientes</h4>
+                <label class="form-labels" for="nome">Nome</label>
+                <input class="form-input" type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="30" required>
+                <label class="form-labels" for="endereco">Endereço</label>
+                <input class="form-input-endereco" type="text" name="endereco" id="endereco" placeholder="Digite seu endereço" maxlength="50" required>
+                <label class="form-labels" for="email">Email</label>
+                <input class="form-input-email" type="email" name="email" id="email" placeholder="Digite seu email" required>
+                <div class="form-checkbox">
+                    <input type="checkbox" name="check" id="input-checkbox" required>
+                    <label for="check">Desejo receber newsletter</label>
+                </div>
+                <div class="form-submit">
+                    <button id="form-button-submit" type="submit">Cadastrar</button>
+                    <button id="form-button-cancelar" type="reset">Cancelar</button>
+                </div>
+                
+            </form>
+</body>
+</html>
