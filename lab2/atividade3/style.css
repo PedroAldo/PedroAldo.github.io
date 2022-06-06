@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'roboto';
+html, body {
+        margin: 0;
+        padding: 0;
 }
+
 a {
     text-decoration: none;
 }
@@ -14,10 +14,12 @@ a {
     margin-bottom: 40px;
 }
 .top-header-titulo {
+    font-family: 'roboto';
     text-align: center;
     color: #FFFFFF;
     padding: 10px;
     font-size: 40px;
+    margin: 0;
 }
 
 .top-header-titulo:hover {
@@ -25,14 +27,6 @@ a {
     opacity: 70%;
 }
 
-.main {
-    display: grid;
-    justify-content: center;
-    justify-items: center;
-}
-.linha {
-    width: 40%;
-    height: 6px;
-    background-color: blue;
-    margin: 20px 0;
+.list {
+    margin-left: 10px;
 }

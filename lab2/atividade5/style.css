@@ -7,8 +7,33 @@
     color: #242020;
 }
 
-body {
+a {
+    text-decoration: none;
+}
+
+.header,
+.parte-meio1,
+.parte-meio2 {
     margin-left: 20px;
+}
+
+
+.top-header {
+    background-color: #00C8FF;
+    margin-bottom: 40px;
+}
+.top-header-titulo {
+    font-family: 'roboto';
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.top-header-titulo:hover {
+    transition: all .2s ease-in-out;
+    opacity: 70%;
 }
 
 .header {

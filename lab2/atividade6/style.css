@@ -6,6 +6,28 @@
     font-family: 'Roboto';
 }
 
+a {
+    text-decoration: none;
+}
+
+.top-header {
+    background-color: #00C8FF;
+    margin-bottom: 40px;
+}
+.top-header-titulo {
+    font-family: 'roboto';
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.top-header-titulo:hover {
+    transition: all .2s ease-in-out;
+    opacity: 70%;
+}
+
 .form {
     display: grid;
     justify-content: flex-start;
