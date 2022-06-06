@@ -7,16 +7,17 @@
     color: #242020;
 }
 
-a {
-    text-decoration: none;
-}
-
 .header,
-.parte-meio1,
-.parte-meio2 {
+.titulo-texto1,
+.titulo-texto2,
+.texto1,
+.texto2 {
     margin-left: 20px;
 }
 
+a {
+    text-decoration: none;
+}
 
 .top-header {
     background-color: #00C8FF;
@@ -64,6 +65,6 @@ a {
 .banner-meio1,
 .banner-meio2 {
     display: grid;
-    margin-left: 40px;
+    margin-left: 60px;
     margin-bottom: 20px;
 }
