@@ -4,17 +4,17 @@
     margin: 0;
     padding: 0;
     font-family: 'roboto';
+    color: #FFFFFF;
 }
 a {
     text-decoration: none;
 }
 
 .top-header {
-    background-color: #00C8FF;
+    background-color: #1F4379;
 }
 .top-header-titulo {
     text-align: center;
-    color: #FFFFFF;
     padding: 10px;
     font-size: 40px;
 }
@@ -33,16 +33,85 @@ a {
     background-color: #ffffff;
 }
 .bottom-link {
-    color: #00C8FF;
+    color: #ffffff;
     font-size: 16px;
 }
 .bottom-link:hover {
     transition: all .2s ease-in-out;
-    border-bottom: 1px solid #000000;
-    font-size: 16px;
-    color: #0489ad;
+    opacity: 50%;
 }
-.bottom-link:active {
-    transition: none;
-    color: #000000;
+
+.middle {
+    display: grid;
+    justify-content: flex-start;
+    justify-items: center;
+    grid-template-columns: repeat(1, 370px 1fr);
+    overflow-x: hidden;
+    background-color: #1F4379;
+}
+
+.middle-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 20px;
+    gap: 10px;
+    border-right: 1px solid #ffffff;
+}
+
+.middle-infos-img {
+    margin-top: 40px;
+    max-width: 250px;
+    border: 1px solid #FFFFFF;
+}
+
+.middle-infos-email-icon,
+.middle-infos-linkedin-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.middle-infos-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+.middle-infos-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.middle-infos-contact1,
+.middle-infos-contact2 {
+    display: flex;
+    align-items: center;
+}
+.middle-atividades {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color: #1F4379;
+    padding-top: 40px;
+}
+.middle-ativ1,
+.middle-ativ2,
+.middle-ativ3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 1280px;
+}
+
+.middle-ativ1 {
+    margin-top: 60px;
+}
+
+.middle-ativ3 {
+    margin-bottom: 60px;
 }
