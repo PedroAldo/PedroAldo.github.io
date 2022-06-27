@@ -50,6 +50,10 @@ a {
     background-color: #1F4379;
 }
 
+.bottom-img {
+    width: 200px;
+}
+
 .middle-infos {
     display: flex;
     flex-direction: column;
